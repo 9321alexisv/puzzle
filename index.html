@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>INICIO</title>
+</head>
+<body>
+    <!--------------------- TITLE AND INSTRUCTIONS ------------------------->
+
+    <h1>WHERE DO YOU WANT THE ITEMS TO START?</h1>
+    <h4>(SELECT FROM E1 TO E9)</h4>
+
+    <!--------------------- TITLE AND INSTRUCTIONS ------------------------->
+
+    <!--------------------- DIV'S FOR THE 3X3 BOARD ------------------------>
+
+    <div class="container">
+        <div class="row">
+            <div class="cell" id="esp1">E1</div>
+            <div class="cell" id="esp2">E2</div>
+            <div class="cell" id="esp3">E3</div>
+        </div>
+        <div class="row">
+            <div class="cell" id="esp4">E4</div> 
+            <div class="cell" id="esp5">E5</div>
+            <div class="cell" id="esp6">E6</div>
+        </div>
+        <div class="row">
+            <div class="cell" id="esp7">E7</div>
+            <div class="cell" id="esp8">E8</div>
+            <div class="cell" id="esp9">E9</div>
+        </div>
+    </div>
+
+    <!--------------------- DIV'S FOR THE 3X3 BOARD ------------------------>
+
+    <!------------------------------ BUTTON -------------------------------->
+
+    <div class="containerButton">
+        <button onclick="start()">START</button>
+    </div>
+
+    <!------------------------------ BUTTON -------------------------------->
+
+    <!-------------------------- IMAGES AT THE LEFT ------------------------>
+
+
+
+    <div class = "iconos"> 
+        <div class = "imagenes" id = "img1"> <img src="imgs/black.png" alt="Imagen"></div>
+        <div class = "imagenes" id = "img2"> <img src="imgs/red.png" alt="Imagen"></div>
+        <div class = "imagenes" id = "img2"> <img src="imgs/blue.png" alt="Imagen"></div>
+    </div>
+    <script src = "script.js"> </script>
+
+    <!-------------------------- IMAGES AT THE LEFT ------------------------>
+
+    <!---------- "SELECT" TO TAKE THE INITIAL POSITION --------------------->
+
+    <form action="questions">
+        <select class="options" id="black">
+            <option value="esp1">E1</option>
+            <option value="esp2">E2</option>
+            <option value="esp3">E3</option>
+            <option value="esp4">E4</option>
+            <option value="esp5">E5</option>
+            <option value="esp6">E6</option>
+            <option value="esp7">E7</option>
+            <option value="esp8">E8</option>
+            <option value="esp9">E9</option>
+        </select>
+
+        <select class="options" id="red">
+            <option value="esp1">E1</option>
+            <option value="esp2">E2</option>
+            <option value="esp3">E3</option>
+            <option value="esp4">E4</option>
+            <option value="esp5">E5</option>
+            <option value="esp6">E6</option>
+            <option value="esp7">E7</option>
+            <option value="esp8">E8</option>
+            <option value="esp9">E9</option>
+        </select>
+
+        
+        <select class="options" id="blue">
+            <option value="esp1">E1</option>
+            <option value="esp2">E2</option>
+            <option value="esp3">E3</option>
+            <option value="esp4">E4</option>
+            <option value="esp5">E5</option>
+            <option value="esp6">E6</option>
+            <option value="esp7">E7</option>
+            <option value="esp8">E8</option>
+            <option value="esp9">E9</option>
+        </select>
+
+    </form>
+
+    <!----------- "SELECT" TO TAKE THE INITIAL POSITION --------------------->
+
+    <!-------------------- DIV'S TO GIVE INSTRUCTIONS ----------------------->
+
+    <div class = instructions>
+        <div id="instBlack">Select the initial position for the black cursor</div>
+        <div id="instRed">Select the initial position for the red box</div>
+        <div id="instBlue">Select the initial position for the blue box</div>
+    </div>
+
+    <!-------------------- DIV'S TO GIVE INSTRUCTIONS ----------------------->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PUZZLE</title>
+</head>
+<body>
+
+    <!--------------------- TITLE AND INSTRUCTIONS ------------------------->
+    <span id="txtInitial">INITIAL POSITION</span>
+    <span id="txtFinal">FINAL POSITION</span>
+    <span id="txtResult">RESULT</span>
+
+    <!--------------------- TITLE AND INSTRUCTIONS ------------------------->
+
+    <!--------------------- DIV'S FOR THE 3X3 BOARD ------------------------>
+
+    <div class="container">
+        <div class="row" id="fila1">
+            <div class="cell" id="esp1"> </div>
+            <div class="cell" id="esp2"> </div>
+            <div class="cell" id="esp3"> </div>
+        </div>
+        <div class="row">
+            <div class="cell" id="esp4"> </div> 
+            <div class="cell" id="esp5"> </div>
+            <div class="cell" id="esp6"> </div>
+        </div>
+        <div class="row">
+            <div class="cell" id="esp7"></div>
+            <div class="cell" id="esp8"></div>
+            <div class="cell" id="esp9"></div>
+        </div>
+    </div>
+
+    <div class="container2">
+
+        <!-- --------------------------------------------------------------------- -->
+        <div class="row">
+            <div class="cell" id="res1"> </div>
+            <div class="cell" id="res2"> </div>
+            <div class="cell" id="res3"> </div>
+        </div>
+        <div class="row">
+            <div class="cell" id="res4"> </div> 
+            <div class="cell" id="res5"> </div>
+            <div class="cell" id="res6"> </div>
+        </div>
+        <div class="row">
+            <div class="cell" id="res7"></div>
+            <div class="cell" id="res8"></div>
+            <div class="cell" id="res9"></div>
+        </div>
+    </div>
+
+    <!--------------------- DIV'S FOR THE 3X3 BOARD ------------------------>
+
+    <!------------------------------ BUTTON -------------------------------->
+
+    <div class="containerButton">
+        <button id = "returnButton" onclick="back()">RETURN</button> 
+        <button id = "resolveButton" onclick="resolve()">RESOLVE</button>
+        <button id = "moveButton" onclick="move()">MOVE</button>
+    </div>
+
+    <!------------------------------ BUTTON -------------------------------->
+
+    
+    <!-------------------- DIV'S TO GIVE INSTRUCTIONS ----------------------->
+
+    <div class = instructions>
+        <div id="instBlack">Is there a solution to the Puzzle?</div>
+        <div id="instRed">How many movements were necessary to get the solution?</div>
+        <div id="instBlue">What are the steps to follow to reach to the solution?</div>
+        <div id="resp1">TBD</div>
+        <div id="resp2">TBD</div>
+        <div id="resp3">TBD</div>
+    </div>
+
+    <!-------------------- DIV'S TO GIVE INSTRUCTIONS ----------------------->
+
+
+    <script src = "script.js"> </script>
+</body>
+</html>

@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: #1b1b29;
+    color: #fefefe;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: 3%;
+    margin-left: 11%;
+}
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+    margin-top: -21%;
+    margin-left: 39.5%;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: #fefefe;
+    border: 1px solid black;
+}
+
+.cell img{
+    width: 96px;
+    height: auto;
+}
+
+.containerButton {
+    display: flex; /* Add flex display */
+    justify-content: space-between; /* Add space between items */
+    align-items: center; /* Align items vertically center */
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    max-width: 300px;     
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
+}
+
+#returnButton, #resolveButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #dbcc44;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Optional: If you want equal width buttons, you can add flex-grow property */
+#returnButton {
+    flex-grow: 1;
+    margin-right: 5px; /* Optional: To add some spacing between buttons */
+}
+
+#resolveButton {
+    flex-grow: 1;
+    margin-left: 5px; /* Optional: To add some spacing between buttons */
+}
+
+#returnButton:hover, #resolveButton:hover {
+    background-color: #e0da9f;
+}
+
+span {
+    display: inline-block;
+    margin-right: 100px; /* Adjust spacing between texts */
+    padding-top: 3%;
+    font-weight: bold;
+    font-size: 200%;
+}
+
+#txtInitial{
+    padding-left: 12%;
+}
+
+#txtFinal{
+    padding-left: 2.80%;
+}
+
+#txtResult{
+    padding-left: 8%;
+}
+
+#instBlack{
+    margin-top: -29.2%;
+    margin-left: 67%;
+    margin-right: auto;
+    width: 50%; /* Puedes ajustar este valor según tus preferencias */
+    max-width: 265px; /* Esto limita el ancho máximo del div para que no se extienda demasiado en pantallas grandes */
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instRed{
+    margin-top: 2%;
+    margin-left: 67%;
+    margin-right: auto;
+    width: 50%; /* Puedes ajustar este valor según tus preferencias */
+    max-width: 265px; /* Esto limita el ancho máximo del div para que no se extienda demasiado en pantallas grandes */
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#instBlue{
+    margin-top: 2%;
+    margin-left: 67%;
+    margin-right: auto;
+    width: 50%; /* Puedes ajustar este valor según tus preferencias */
+    max-width: 265px; /* Esto limita el ancho máximo del div para que no se extienda demasiado en pantallas grandes */
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resp1{
+    margin-top: -20%;
+    margin-left: 87%;
+    margin-right: auto;
+    width: 50%; /* Puedes ajustar este valor según tus preferencias */
+    max-width: 160px; /* Esto limita el ancho máximo del div para que no se extienda demasiado en pantallas grandes */
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resp2{
+    margin-top: 3.5%;
+    margin-left: 87%;
+    margin-right: auto;
+    width: 50%; /* Puedes ajustar este valor según tus preferencias */
+    max-width: 160px; /* Esto limita el ancho máximo del div para que no se extienda demasiado en pantallas grandes */
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resp3{
+    margin-top: 3.5%;
+    margin-left: 87%;
+    margin-right: auto;
+    width: 50%; /* Puedes ajustar este valor según tus preferencias */
+    max-width: 160px; /* Esto limita el ancho máximo del div para que no se extienda demasiado en pantallas grandes */
+    background-color: #252535;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
